@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from "react";
-import "../style/style.css";
-import LoginPage  from "./login";
-import { AppState } from "./application";
 import { AppService } from "../services/app-services";
-
-const appService = new AppService("ws://localhost:3000");
 
 const GameScreen: React.FC<{ playerName: string }> = ({ playerName }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const appService = new AppService("ws://localhost:3000"); // WebSocket URL
 
   useEffect(() => {
     appService.connect(playerName)
       .then(() => console.log("Game connected successfully"))
-      .catch(() => console.error("Error connecting to WebSocket server"));
+      .catch((error) => console.error("Error connecting to WebSocket server", error));
 
     const handleKeyDown = (event: KeyboardEvent) => {
       const step = 50;
@@ -23,7 +19,7 @@ const GameScreen: React.FC<{ playerName: string }> = ({ playerName }) => {
         if (event.key === "a") newPosition.x = Math.max(0, newPosition.x - step);
         if (event.key === "d") newPosition.x = Math.min(775, newPosition.x + step);
 
-        appService.sendPosition(playerName, newPosition);
+        appService.sendPosition(playerName, newPosition); // Send position update to server
         return newPosition;
       });
     };
@@ -32,9 +28,9 @@ const GameScreen: React.FC<{ playerName: string }> = ({ playerName }) => {
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
-      appService.closeConnection();
+      appService.closeConnection(); // Close connection when component unmounts
     };
-  }, [playerName]);
+  }, [playerName, appService]);
 
   return (
     <div className="game-screen">
@@ -43,22 +39,4 @@ const GameScreen: React.FC<{ playerName: string }> = ({ playerName }) => {
   );
 };
 
-const App: React.FC = () => {
-  const [currentState, setCurrentState] = useState<AppState>(AppState.Login);
-  const [playerName, setPlayerName] = useState<string>("");
-
-  const handleLogin = (name: string) => {
-    setPlayerName(name);
-    setCurrentState(AppState.Playing);
-  };
-
-  return (
-    <div id="app">
-      {currentState === AppState.Idle && <div>Error: Something went wrong!</div>}
-      {currentState === AppState.Login && <div>{LoginPage(handleLogin)}</div>}
-      {currentState === AppState.Playing && <GameScreen playerName={playerName} />}
-    </div>
-  );
-};
-
-export default App;
+export default GameScreen;

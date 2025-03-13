@@ -1,8 +1,8 @@
+// src/components/LoginPage.tsx
 import React, { useState } from "react";
-import "../style/style.css";
 
 interface LoginPageProps {
-  onPlayClick: (name: string) => void;
+  onPlayClick: (name: string) => void;  // Add onPlayClick as a required prop
 }
 
 const LoginPage: React.FC<LoginPageProps> = ({ onPlayClick }) => {
