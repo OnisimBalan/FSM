@@ -19,7 +19,6 @@ export class AppService {
         const data = JSON.parse(event.data);
         if (data.type === "update_position") {
           console.log(`${data.name} updated position:`, data.position);
-          // Handle position updates here, possibly update your game state
         }
       };
 

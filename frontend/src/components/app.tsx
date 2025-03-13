@@ -14,7 +14,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div id="app">
+    <div>
       {currentState === AppState.Idle && <div>Error: Something went wrong!</div>}
 
       {currentState === AppState.Login && <LoginPage onPlayClick={handleLogin} />}

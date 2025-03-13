@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|c:\\users\\balan\\onedrive\\desktop\\pro\\fsm\\fsm3\\fsm\\backend\\be_fsm\\controllers\\websocketservicegameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|solutionrelative:controllers\\websocketservicegameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|c:\\users\\balan\\onedrive\\desktop\\pro\\fsm\\fsm3\\fsm\\backend\\be_fsm\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|solutionrelative:playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|c:\\users\\balan\\onedrive\\desktop\\pro\\fsm\\fsm3\\fsm\\backend\\be_fsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA7F21F-90AA-4592-8C76-5F362A511254}|be_FSM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:19:55.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebSocketServiceGamePlay.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\Controllers\\WebSocketServiceGamePlay.cs",
+              "RelativeDocumentMoniker": "Controllers\\WebSocketServiceGamePlay.cs",
+              "ToolTip": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\Controllers\\WebSocketServiceGamePlay.cs",
+              "RelativeToolTip": "Controllers\\WebSocketServiceGamePlay.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:07:44.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\PlayerData.cs",
+              "RelativeDocumentMoniker": "PlayerData.cs",
+              "ToolTip": "C:\\Users\\balan\\OneDrive\\Desktop\\pro\\FSM\\FSM3\\FSM\\backend\\be_FSM\\PlayerData.cs",
+              "RelativeToolTip": "PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:54:37.582Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
