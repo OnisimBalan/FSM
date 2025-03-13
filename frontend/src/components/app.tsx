@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import LoginPage from "./login-page"; 
 import GameScreen from "./game-screen"; 
 import { AppState } from "../types/appState";
+import { TempServ } from "../services/tempserv";
+
 
 const App: React.FC = () => {
+  //const myServer = new TempServ();
+  //console.log(myServer);
   const [currentState, setCurrentState] = useState<AppState>(AppState.Login);
   const [playerName, setPlayerName] = useState<string>("");
 

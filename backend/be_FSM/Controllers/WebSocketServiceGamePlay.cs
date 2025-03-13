@@ -40,7 +40,7 @@ namespace be_FSM
             {
                 // Check if the request URL matches "ws://localhost:5000/playerdata/ws"
                 var requestPath = _httpContextAccessor.HttpContext.Request.Path.ToString();
-                if (requestPath == "/playerdata/ws")
+                if (requestPath == "ws://localhost:5000//playerdata/ws")
                 {
                     try
                     {
