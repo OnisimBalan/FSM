@@ -1,0 +1,34 @@
+{
+  "name": "cxz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "esbuild": "^0.25.1",
+    "express": "^4.21.2",
+    "nanoid": "^3.3.9",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.35.0",
+    "source-map-js": "^1.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
