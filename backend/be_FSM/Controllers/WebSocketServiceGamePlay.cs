@@ -74,7 +74,7 @@ namespace be_FSM
                     result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), stoppingToken);
 
                     if (result.MessageType == WebSocketMessageType.Close)
-                    {dv bytytyty
+                    {
                         _logger.LogInformation("WebSocket connection closed by the client.");
                         break;
                     }
