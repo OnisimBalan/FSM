@@ -32,3 +32,4 @@ C:\Users\balan\OneDrive\Desktop\pro\FSM\FSM3\FSM\backend\be_FSM\obj\Debug\net9.0
 C:\Users\balan\OneDrive\Desktop\pro\FSM\FSM3\FSM\backend\be_FSM\obj\Debug\net9.0\be_FSM.pdb
 C:\Users\balan\OneDrive\Desktop\pro\FSM\FSM3\FSM\backend\be_FSM\obj\Debug\net9.0\be_FSM.genruntimeconfig.cache
 C:\Users\balan\OneDrive\Desktop\pro\FSM\FSM3\FSM\backend\be_FSM\obj\Debug\net9.0\ref\be_FSM.dll
+C:\Users\balan\OneDrive\Desktop\pro\FSM\FSM3\FSM\backend\be_FSM\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
